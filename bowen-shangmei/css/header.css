@@ -1,0 +1,17 @@
+.header{
+margin-top: 20px;
+margin-bottom: 18px;
+height: 44px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.logo {
+  width: 162px;
+  height: 44px;
+}
+.nav ul li{
+  float: left;
+  margin-left: 20px;
+  cursor: pointer;
+}

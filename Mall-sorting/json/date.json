@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "title": "三星 SAMSUNG Galaxy S22 Ultra",
+    "price": 7999,
+    "heat": 3000,
+    "time": "2022-5-28"
+  },
+  {
+    "id": 2,
+    "title": "三星 SAMSUNG Galaxy S22",
+    "price": 3999,
+    "heat": 2000,
+    "time": "2022-5-29"
+  },
+  {
+    "id": 3,
+    "title": "荣耀Play6T",
+    "price": 1199,
+    "heat": 500,
+    "time": "2022-4-28"
+  },
+  {
+    "id": 4,
+    "title": "Redmi Note 9 Pro",
+    "price": 1349,
+    "heat": 10000,
+    "time": "2020-11-28"
+  },
+  {
+    "id": 5,
+    "title": "Apple iPhone 13 (A2634)",
+    "price": 5999,
+    "heat": 20000,
+    "time": "2021-9-3"
+  },
+  {
+    "id": 6,
+    "title": "三星 SAMSUNG Galaxy A53",
+    "price": 2599,
+    "heat": 1000,
+    "time": "2022-3-3"
+  },
+  {
+    "id": 7,
+    "title": "Redmi K50",
+    "price": 2899,
+    "heat": 50000,
+    "time": "2022-2-13"
+  }
+]

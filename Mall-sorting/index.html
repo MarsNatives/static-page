@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="node_modules/reset.css/reset.css">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <script async src="node_modules/holderjs/holder.js"></script>
+  <script defer src="./js/index.js"></script>
+  <link rel="stylesheet" href="css/index.css">
+  <title>商品排序</title>
+</head>
+
+<body>
+  <div class="container">
+    <!-- 导航部分 -->
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">商城排序</a>
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item" data-sort="data-time">
+              <a class="nav-link" href="javascript:;">上架时间</a>
+            </li>
+            <li class="nav-item" data-sort="data-price">
+              <a class="nav-link" href="javascript:;">价格</a>
+            </li>
+            <li class="nav-item" data-sort="data-heat">
+              <a class="nav-link" href="javascript:;">热度</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- 商品部分 -->
+    <div class="row goods">
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+.footer{
+  margin-top: 40px;
+  height: 54px;
+  background-color: #66c5b4;
+  line-height: 54px;
+  color: #ffffff;
+  font-size: 12px;
+}
+.footer p{
+  cursor: pointer;
+}

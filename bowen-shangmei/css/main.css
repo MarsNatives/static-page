@@ -1,0 +1,111 @@
+/* 横幅 */
+.banner{
+    height: 470px;
+    width: 1352px;
+    margin: 0 auto;
+}
+.banner ul{
+  display: flex;
+  justify-content: center;
+  justify-items:space-between;
+  position: relative;
+  top: -30px;
+}
+.banner ul li{
+  margin: 0 10px;
+  height: 12px;
+  width: 12px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+.activate{
+  background-color: white;
+}
+/* 服务范围 */
+.service{
+  	width: 981px;
+  	height: 280px;
+    margin: 60px auto;
+}
+.our-service{
+  display: flex;
+  justify-content: center;
+  height: 40px;
+}
+.service ul {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+/* 客户案例 */
+.customerCase{
+  height: 460px;
+  background-color: #f8f8f8;
+}
+.customerCase .cc-top{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.customerCase ul{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.btn {
+  line-height: 37px;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 176px;
+  height: 37px;
+  background-color: #66c5b4;
+  border-radius: 20px;
+}
+/* 最新资讯 */
+.news-bg {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.news-list {
+  margin-top: 40px;
+  height: 234px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.news-list img {
+  height: 100%;
+}
+
+.r ul {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+.r ul li {
+  margin-left: 5px;
+  width: 390px;
+  height: 70px;
+  float: left;
+  background: url(../img/jan.png) 0px 0px no-repeat;
+}
+
+.r ul li div {
+  float: right;
+}
+
+.r ul li div h3 {
+  margin-top: 10px;
+}
+
+.r ul li div p {
+  font-size: 12px;
+  color: #a4a4a4;
+}
